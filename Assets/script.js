@@ -19,14 +19,24 @@ $(function() {
     }
   })
 
+//Add event listener to save buttons.
 $(".saveBtn").on("click", function () {
   var time = $(this).parent().attr("id");
   console.log(time);
   var text = $(this).siblings(".description").val();
-  console.log(text);
-  
-
+  // console.log(text);
+  localStorage.setItem(time, text);
 })
+
+//Save the scheduled events.
+$(".description").each(function() {
+  var time = $(this).parent().attr("id");
+  // console.log(time)
+  var showData = localStorage.getItem(time);
+  console.log(showData);
+  $(this).text(showData);
+})
+
 });
 
 
