@@ -15,7 +15,7 @@ $(function() {
     } else if (onTime == currentTime) {
       $(this).addClass("present");
     } else {
-      $(this).addClass("future");
+      $(this).addClass("future");``
     }
   })
 
