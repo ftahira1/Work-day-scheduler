@@ -1,6 +1,6 @@
 //Display today's date
 var today = dayjs();
-$('#currentDay').text(today.format('dddd, MMM, Do YYYY'));
+$('#currentDay').text(today.format('dddd, MMM, D YYYY'));
 
 $(function() {
   //Display current hour
