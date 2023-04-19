@@ -10,7 +10,7 @@ Next go to my github and download the zip folder and by using GUI or your cursor
 ## Usage
 You can use this project by going to my Github account and clicking on my project repository and runnning the deployed page. 
 This is how my page looks: 
-<img src="./assets/screenshot-1.png"/>
+<img src="./Assets/screenshot-1.png"/>
 
 Click here for deployed page: <a href="https://ftahira1.github.io/Work-day-scheduler/">Work Day Scheduler</a>
 
